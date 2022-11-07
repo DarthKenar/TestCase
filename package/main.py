@@ -6,7 +6,7 @@ class Solution:
     @staticmethod
     def upperAndLower(a:str, b:str) -> bool: return (a.islower() and b.isupper()) or (a.isupper() and b.islower())
     @staticmethod
-    def upperNextToLower(s: str):
+    def upperNextToLower(s: str) -> List:
         for i in range(1,len(s)):
             if Solution.equal_characters(s[i-1],s[i]) and Solution.upperAndLower(s[i-1],s[i]):
                 return [i-1,i]
