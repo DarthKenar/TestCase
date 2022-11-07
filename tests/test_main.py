@@ -1,4 +1,4 @@
-from package.main import Solution
+from ..package.main import Solution
 def test_string():
 
     assert Solution.upperNextToLower("ahjJa") == [2,3]
@@ -13,8 +13,7 @@ def test_string():
     assert Solution.upperNextToLower("") == None
     assert Solution.upperNextToLower("E") == None
 
-if __name__ == "__main__":
-    test_string()
+
 
 
 

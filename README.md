@@ -26,3 +26,5 @@ Example 4:
 Input: "aaaAaaa"
 Output:[2,3]
 
+Run in terminal (\TestCase> pytest -cov)
+this command will be provide you a percent % of test coverage

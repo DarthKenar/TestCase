@@ -1,2 +1,7 @@
+*.pyc
 */*.pyc
 */*/*.pyc
+*/*.json
+.coverage
+.env/
+tests/__pycache__/
